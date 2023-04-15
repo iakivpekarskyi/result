@@ -1,13 +1,5 @@
 const board = document.querySelector("#board");
-const colors = [
-  "#9b5fe0",
-  "#16a4d8",
-  "#60dbe8",
-  "#8bd346",
-  "#efdf48",
-  "#f9a52c",
-  "#d64e12",
-];
+const colors = ["#00FECA", "#FDF200", "#FF85EA", "#7B61F8"];
 const SQUARE_NUMBER = 500;
 
 for (let i = 0; i < SQUARE_NUMBER; i++) {
